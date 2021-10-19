@@ -57,7 +57,11 @@ https://cdnjs.com/libraries/bttn.css
 ### Usage
 Include `btn-eff-style.css & eff-color.css` in head of your html file and start using bttn CSS classes in your button.
 <pre>
-&lt;button class="bttn-material-circle bttn-md"&gt;
-  &lt;i class="icon-menu"&gt;&lt;/i&gt;
-&lt;/button&gt;
+  &lt;a class="eff-btn btn-door-eff btn-green-eff box-green-shadow text-white-hv"&gt;
+  &lt;/a&gt;
+</pre>
+<pre>
+  &lt;div class="glass-nightly-btn eff-nightly-cyan-btn"&gt;
+      &lt;a&gt; class='glassmorphism-btn' href="#">Night Btn</a&gt;
+  &lt; /div &gt;
 </pre>
