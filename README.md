@@ -62,6 +62,7 @@ https://anitechtime.000webhostapp.com/css-libs/btn-eff/btn-eff-style.css
 Include `btn-eff-style.css & eff-color.css` in head of your html file and start using bttn CSS classes in your button.
 <pre>
   &lt;a class="eff-btn btn-door-eff btn-green-eff box-green-shadow text-white-hv"&gt;
+  Door Eff
   &lt;/a&gt;
 </pre>
 <pre>
@@ -71,6 +72,7 @@ Include `btn-eff-style.css & eff-color.css` in head of your html file and start 
 </pre>
 
 <pre>
-  &lt;a class='eff-btn lines-to-fill-btn lines-to-fill-green eff-glow-green-hv m-5' href="#"&gt;Night Btn
+  &lt;a class='eff-btn lines-to-fill-btn lines-to-fill-green eff-glow-green-hv m-5' href="#"&gt;
+    Night Btn
   &lt;/a&gt;
 </pre>
