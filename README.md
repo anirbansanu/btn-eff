@@ -62,6 +62,6 @@ Include `btn-eff-style.css & eff-color.css` in head of your html file and start 
 </pre>
 <pre>
   &lt;div class="glass-nightly-btn eff-nightly-cyan-btn"&gt;
-      &lt;a&gt; class='glassmorphism-btn' href="#">Night Btn</a&gt;
+      &lt;a&gt; class='glassmorphism-btn' href="#">Night Btn&lt;/a&gt;
   &lt; /div &gt;
 </pre>
