@@ -49,9 +49,10 @@ All styles can be called with simple class names. With the minified CSS file com
 https://cdnjs.com/libraries/bttn.css
 </pre>
 
-#### CSS File
+#### CSS Files
 <pre>
-&lt;link type="text/css" src="./dist/bttn.min.css"/&gt;
+  &lt;link type="text/css" src="./eff-color.css"/&gt;
+  &lt;link type="text/css" src="./btn-eff-style.css"/&gt;
 </pre>
 
 ### Usage
@@ -63,5 +64,5 @@ Include `btn-eff-style.css & eff-color.css` in head of your html file and start 
 <pre>
   &lt;div class="glass-nightly-btn eff-nightly-cyan-btn"&gt;
       &lt;a&gt; class='glassmorphism-btn' href="#">Night Btn&lt;/a&gt;
-  &lt; /div &gt;
+  &lt;/div&gt;
 </pre>
