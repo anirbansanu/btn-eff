@@ -22,9 +22,9 @@ All styles can be called with simple class names. With the minified CSS file com
 - `btn-cross-border-eff`
 
 #### Nightly style Button Classes
-{ - `glass-nightly-btn` 
-  - `glassmorphism-btn` }
-{ - `lines-to-fill-btn` }
+  - `glass-nightly-btn` 
+  - `glassmorphism-btn` 
+    - `lines-to-fill-btn` 
 
 #### Button Colors
 - `bttn-default`
