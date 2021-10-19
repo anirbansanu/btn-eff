@@ -44,13 +44,16 @@ All styles can be called with simple class names. With the minified CSS file com
 - `box-white-shadow`
 - `box-black-shadow`
 
-#### CDN - [cdnjs](https://cdnjs.com/libraries/bttn.css)
+#### CDN - (https://anitechtime.000webhostapp.com/css-libs/btn-eff/btn-eff.css)
 <pre>
 https://anitechtime.000webhostapp.com/css-libs/btn-eff/eff-color.css
 </pre>
 <pre>
 https://anitechtime.000webhostapp.com/css-libs/btn-eff/btn-eff-style.css
 </pre>
+
+#### One File Link
+https://anitechtime.000webhostapp.com/css-libs/btn-eff/btn-eff.css 
 
 #### CSS Files
 <pre>
