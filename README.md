@@ -23,8 +23,8 @@ All styles can be called with simple class names. With the minified CSS file com
 
 #### Nightly style Button Classes
   - `glass-nightly-btn` 
-  - `glassmorphism-btn` 
-    - `lines-to-fill-btn` 
+    - `glassmorphism-btn` 
+  - `lines-to-fill-btn` 
 
 #### Button Colors
 - `bttn-default`
