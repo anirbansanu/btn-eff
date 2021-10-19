@@ -10,20 +10,21 @@ All styles can be called with simple class names. With the minified CSS file com
 
 <img src="https://github.com/anirbansanu/btn-eff/blob/master/sample.png" width="600" />
 
-#### Button style classes
-- `bttn-simple`
-- `bttn-bordered`
-- `bttn-minimal`
-- `bttn-stretch`
-- `bttn-jelly`
-- `bttn-gradient`
-- `bttn-fill`
-- `bttn-material-circle`
-- `bttn-material-flat`
-- `bttn-pill`
-- `bttn-float`
-- `bttn-unite`
-- `bttn-slant` *(Beta)*
+#### Simple Main Btn Class
+- `eff-btn`
+
+#### Button style Classes
+- `btn-door-eff`
+- `btn-slide-eff`
+- `btn-shutter-click-eff`
+- `btn-shutter-up-eff`
+- `btn-shutter-down-eff`
+- `btn-cross-border-eff`
+
+#### Nightly style Button Classes
+{ - `glass-nightly-btn` 
+  - `glassmorphism-btn` }
+{ - `lines-to-fill-btn` }
 
 #### Button Colors
 - `bttn-default`
