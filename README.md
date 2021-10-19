@@ -1,6 +1,6 @@
 # btn-eff
 
-####Free CSS Button Library & Framework
+<b>Free CSS Button Library & Framework</b>
 
 
 btn-eff is a collection of lightly-styled buttons that feature different shapes, sizes and colors. 
