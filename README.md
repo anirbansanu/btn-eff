@@ -8,7 +8,7 @@ All styles can be called with simple class names. With the minified CSS file com
 
 [Demo](https://bttn.surge.sh/) | [Medium Article](https://medium.com/@ganapativs/bttn-css-awesome-buttons-for-awesome-projects-baa2486bcb3d) | [ProductHunt](https://www.producthunt.com/posts/bttn-css) | [cdnjs](https://cdnjs.com/libraries/bttn.css)
 
-<img src="http://imgur.com/mqPa6Ac.png" width="600" />
+<img src="https://github.com/anirbansanu/btn-eff/blob/master/sample.png" width="600" />
 
 #### Button style classes
 - `bttn-simple`
