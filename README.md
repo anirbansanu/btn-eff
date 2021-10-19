@@ -46,7 +46,10 @@ All styles can be called with simple class names. With the minified CSS file com
 
 #### CDN - [cdnjs](https://cdnjs.com/libraries/bttn.css)
 <pre>
-https://cdnjs.com/libraries/bttn.css
+https://anitechtime.000webhostapp.com/css-libs/btn-eff/eff-color.css
+</pre>
+<pre>
+https://anitechtime.000webhostapp.com/css-libs/btn-eff/btn-eff-style.css
 </pre>
 
 #### CSS Files
