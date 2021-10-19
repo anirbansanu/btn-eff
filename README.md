@@ -26,13 +26,23 @@ All styles can be called with simple class names. With the minified CSS file com
     - `glassmorphism-btn` 
   - `lines-to-fill-btn` 
 
-#### Button Colors
-- `bttn-default`
-- `bttn-primary`
-- `bttn-warning`
-- `bttn-success`
-- `bttn-danger`
-- `bttn-royal`
+#### Button Colors in eff-color.css
+- `eff-green`
+- `eff-primary`
+- `eff-warning`
+- `eff-purple`
+- `eff-cyan`
+- `eff-purpleBlack`
+- `eff-black`
+
+#### Box-Shadow Colors in eff-color.css
+- `box-primary-shadow`
+- `box-green-shadow`
+- `box-warning-shadow`
+- `box-purple-shadow`
+- `box-cyan-shadow`
+- `box-white-shadow`
+- `box-black-shadow`
 
 #### CDN - [cdnjs](https://cdnjs.com/libraries/bttn.css)
 <pre>
