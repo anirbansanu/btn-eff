@@ -31,6 +31,26 @@
     -webkit-box-shadow: inset 0 0 5px var(--warning);
     box-shadow:         inset 0 0 5px var(--warning);
 }
+.box-purple-shadow{
+    -moz-box-shadow:    inset 0 0 5px var(--purple);
+    -webkit-box-shadow: inset 0 0 5px var(--purple);
+    box-shadow:         inset 0 0 5px var(--purple);
+}
+.box-cyan-shadow{
+    -moz-box-shadow:    inset 0 0 5px var(--cyan);
+    -webkit-box-shadow: inset 0 0 5px var(--cyan);
+    box-shadow:         inset 0 0 5px var(--cyan);
+}
+.box-white-shadow{
+    -moz-box-shadow:    inset 0 0 5px var(--white);
+    -webkit-box-shadow: inset 0 0 5px var(--white);
+    box-shadow:         inset 0 0 5px var(--white);
+}
+.box-black-shadow{
+    -moz-box-shadow:    inset 0 0 5px var(--black);
+    -webkit-box-shadow: inset 0 0 5px var(--black);
+    box-shadow:         inset 0 0 5px var(--black);
+}
 .eff-glow-green-hv:hover{
     box-shadow: 0 0 10px var(--l-green),
                 0 0 20px var(--l-green),
