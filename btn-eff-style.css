@@ -34,7 +34,7 @@ html{
     background-color: var(--white);
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow: hidden !important;
     z-index: 1;
 }
 .eff-btn:hover{
@@ -198,18 +198,17 @@ transform: translateY(4px);
 
 .btn-cross-border-eff{
     background-color: var(--white);
-    overflow: visible;
+    overflow: visible !important;
     z-index: 1;
 }
 .btn-cross-border-eff::before{
     content: "";
     position: absolute;
+    background-color: transparent;
     top:0%;
     left:0%;
-    background-color: transparent;
     width: 100%;
     height: 100%;
-    
     -moz-box-shadow:    inset 0 0 5px var(--primary);
     -webkit-box-shadow: inset 0 0 5px var(--primary);
     box-shadow:         inset 0 0 5px var(--primary);
@@ -220,7 +219,6 @@ transform: translateY(4px);
     left:-2%;
     padding: 5px;
 }
-
 .btn-cross-border-eff::after{
     content: "";
     position: absolute;
@@ -408,4 +406,82 @@ transform: translateY(4px);
     height:100%;
     right: -2px;
     transition-delay: 0s, 0.4s, 1s, 1s;
+}
+
+.eff-fill-color::after{
+    content: "";
+    position: absolute;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    bottom:0;
+    left:0;
+    width: 0%;
+    height: 10%;
+    border-radius: 30px 30px 0px 0px;
+    z-index: -1;
+    transition: all 0.3s linear;
+    
+}
+.eff-fill-color:hover:after{
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+.eff-fill-color::before{
+    content: "";
+    position: absolute;
+    text-transform: uppercase;
+    top:0;
+    right:0;
+    width: 0%;
+    height: 0%;
+    border-radius: 0px 0px 30px 30px;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+    
+}
+.eff-fill-color:hover:before{
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+.eff-left-arrow-btn{
+    overflow: hidden !important;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 70px;
+}
+.eff-left-arrow-btn::after{
+    content: "❯";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    padding: 3px;
+    padding-left: 1.8rem;
+    font-size: 3.5rem;
+    height: 100%;
+    /* border-radius: 30px 0px 0px 30px; */
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+    z-index: -1;
+    transition: all 0.3s linear;
+}
+.eff-left-arrow-btn:hover:after{
+    width: 20%;
+    opacity: 1;
+}
+.eff-left-arrow-btn:hover{
+    color: white;
+}
+.eff-left-arrow-btn:active:after{
+    width: 0%;
 }

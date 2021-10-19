@@ -16,6 +16,41 @@
     --l-warning:    #f5e663; 
 }
 
+.eff-btn-transparent{
+    background-color: transparent;
+}
+.eff-outline-green{
+    color: var(--green);
+    outline-color:var(--l-green);
+    outline-style: inset;
+}
+.eff-outline-green:hover{
+    color: var(--white);
+}
+.eff-outline-primary{
+    color: var(--primary);
+    outline-color:var(--l-primary);
+    outline-style: inset;
+}
+.eff-outline-primary:hover{
+    color: var(--white);
+}
+.eff-outline-cyan{
+    color: var(--cyan);
+    outline-color:var(--l-cyan);
+    outline-style: inset;
+}
+.eff-outline-cyan:hover{
+    color: var(--l-cyan);
+}
+.eff-outline-white{
+    color: var(--white);
+    outline-color:var(--white);
+    outline-style: inset;
+}
+.eff-outline-white:hover{
+    color: var(--l-cyan);
+}
 .box-primary-shadow{
     -moz-box-shadow:    inset 0 0 5px var(--primary);
     -webkit-box-shadow: inset 0 0 5px var(--primary);
@@ -162,6 +197,10 @@
 }
 
 /* Color effects on Hover */
+.eff-green-hv:hover{
+    color: var(--white);
+    background-color: var(--green);
+}
 .eff-primary-hv:hover{
     color: var(--white);
     background-color: var(--primary);
