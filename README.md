@@ -69,3 +69,8 @@ Include `btn-eff-style.css & eff-color.css` in head of your html file and start 
       &lt;a&gt; class='glassmorphism-btn' href="#">Night Btn&lt;/a&gt;
   &lt;/div&gt;
 </pre>
+
+<pre>
+  &lt;a class='eff-btn lines-to-fill-btn lines-to-fill-green eff-glow-green-hv m-5' href="#"&gt;Night Btn
+  &lt;/a&gt;
+</pre>
