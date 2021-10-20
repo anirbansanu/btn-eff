@@ -8,7 +8,13 @@ All styles can be called with simple class names. With the minified CSS file com
 
 [Demo](https://anitechtime.000webhostapp.com/css-libs/btn-eff/index.html) | [eff-color.css](https://anitechtime.000webhostapp.com/css-libs/btn-eff/eff-color.css) | [btn-eff-style.css](https://anitechtime.000webhostapp.com/css-libs/btn-eff/btn-eff-style.css)
 
+#### eff-btns Examples
+
 <img src="https://github.com/anirbansanu/btn-eff/blob/master/sample.png" width="600" />
+
+#### eff-nightly-btns Examples
+
+<img src="https://github.com/anirbansanu/btn-eff/blob/master/nightly-btns.png" width="600" />
 
 #### Simple Main Btn Class
 - `eff-btn`
