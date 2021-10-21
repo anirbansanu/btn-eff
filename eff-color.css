@@ -1,12 +1,13 @@
 :root {
     --red:          rgb(247, 39, 39);
     --l-red:        rgb(231, 89, 89);
-    --primary:      #2980b9;
-    --l-primary:    #5bafe7;
+    --primary:      #2c91fd;
+    --l-primary:    #6ab3e4;
     --white:        #ecf0f1;
     --black:        #1e2225;
     --purple:       #9b59b6;
-    --l-purple:     #d492ee;
+    --l-purple:     #c57ce2;
+    --d-purple:     #45115a;
     --cyan:         #1abc9c;
     --l-cyan:       #5febcf;
     --purpleBlack:  #2C3A47;
@@ -122,17 +123,29 @@
                 0 0 80px var(--l-red),
                 0 0 160px var(--l-red);
 }
-.eff-border-primary{
-    border-style:var(--primary) !important;
+
+.eff-border-green,.eff-border-green::after,.eff-border-green::before{
+    border-color: var(--green);
 }
-.eff-border-green{
-    border-style:var(--green)  !important;
+.eff-border-red,.eff-border-red::after,.eff-border-red::before{
+    border-color: var(--red);
 }
+.eff-border-primary,.eff-border-primary::after,.eff-border-primary::before{
+    border-color: var(--primary);
+}
+.eff-border-cyan,.eff-border-cyan::after,.eff-border-cyan::before{
+    border-color: var(--cyan);
+}
+.eff-border-purple,.eff-border-purple::after,.eff-border-purple::before{
+    border-color: var(--purple);
+}
+
+
 .text-primary{
     color: var(--primary);
 }
 .text-green{
-    color: var(--green);
+    color: var(--l-green);
 }
 .text-primary-hv:hover{
     color: var(--primary);
@@ -143,14 +156,20 @@
 .text-black-hv:hover{
     color: var(--black);
 }
+.text-purple{
+    color: var(--purple) !important;
+}
+.text-purple:hover{
+    color: var(--d-purple) !important;
+}
 .text-purple-hv:hover{
-    color: var(--purple);
+    color: var(--l-purple);
 }
 .text-cyan-hv:hover{
     color: var(--cyan);
 }
 .text-green-hv:hover{
-    color: var(--l-green);
+    color: var(--green);
 }
 .text-purpleBlack-hv:hover{
     color: var(--purpleBlack);
@@ -163,20 +182,35 @@
 .eff-green:active,.btn-green-eff:active:before,.btn-green-eff:active:after{
     background-color: var(--l-green);
 }
+.eff-green-hv:hover,.btn-green-eff-hv:hover:before,.btn-green-eff-hv:hover:after{
+    background-color: var(--green) !important;
+}
+.eff-l-green-hv:hover,.btn-l-green-eff-hv:hover:before,.btn-l-green-eff-hv:hover:after{
+    background-color: var(--l-green) !important;
+}
 .eff-primary,.btn-primary-eff::before,.btn-primary-eff::after{
     background-color: var(--primary);
 }
 .eff-primary:active,.btn-primary-eff:active:before,.btn-primary-eff:active:after{
     background-color: var(--l-primary);
 }
+.eff-primary-hv:hover,.btn-primary-eff-hv:hover:before,.btn-primary-eff-hv:hover:after{
+    background-color: var(--primary);
+}
 .eff-purple,.btn-purple-eff::before,.btn-purple-eff::after{
     background-color: var(--purple);
+}
+.eff-purple-hv:hover,.btn-purple-eff-hv:hover:before,.btn-purple-eff-hv:hover:after{
+    background-color: var(--purple) !important;
 }
 .eff-purple:active,.btn-purple-eff:active:before,.btn-purple-eff:active:after{
     background-color: var(--l-purple);
 }
 .eff-cyan,.btn-cyan-eff::before,.btn-cyan-eff::after{
     background-color: var(--cyan);
+}
+.eff-cyan-hv:hover,.btn-cyan-eff-hv:hover:before,.btn-cyan-eff-hv:hover:after{
+    background-color: var(--cyan) !important;
 }
 .eff-cyan:active,.btn-cyan-eff:active:before,.btn-cyan-eff:active:after{
     background-color: var(--l-cyan);
