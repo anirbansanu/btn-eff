@@ -6,8 +6,6 @@
 btn-eff is a collection of lightly-styled buttons that feature different shapes, sizes and colors. 
 All styles can be called with simple class names. With the minified CSS file coming in at just 4kb, this library is also quite lightweight.
 
-[![npm][npm-svg]][npm-home]
-[![GitHub Actions][actions-svg]][actions-home]
 
 [Demo -> 1 ](http://pytalk.c1.biz/btn-css/index.html) |[Demo -> 2 ](https://anitechtime.000webhostapp.com/css-libs/btn-eff/index.html) | [eff-color.css](https://anitechtime.000webhostapp.com/css-libs/btn-eff/eff-color.css) | [btn-eff-style.css](https://anitechtime.000webhostapp.com/css-libs/btn-eff/btn-eff-style.css)
 
