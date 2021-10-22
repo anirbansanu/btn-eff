@@ -15,7 +15,9 @@ All styles can be called with simple class names. With the minified CSS file com
 
 #### eff-nightly-btns Examples
 
-<img src="https://github.com/anirbansanu/btn-eff/blob/master/nightly-btns.png" width="600" />
+<img src="https://github.com/anirbansanu/btn-eff/blob/master/sample-1.png" width="600" />
+
+<img src="https://github.com/anirbansanu/btn-eff/blob/master/sample-2.png" width="600" margin-top="100"/>
 
 #### Simple Main Btn Class
 - `eff-btn`
